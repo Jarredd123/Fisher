@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;  /* Poppins font */
+  background-color: #121212;  /* Dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #fff;  /* White text */
+}
+
+/* Centering content */
+.screen {
+  display: none;
+  text-align: center;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #1e1e1e;  /* Dark background for screens */
+  width: 350px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.screen.active {
+  display: block;
+}
+
+/* Buttons */
+button {
+  padding: 14px 22px;
+  background-color: #28a745;  /* Green accent */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  transition: background-color 0.3s, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #218838;  /* Darker green */
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #1e7e34;
+  transform: scale(0.98);
+}
+
+/* Header */
+h1, h2 {
+  font-family: 'Poppins', sans-serif;  /* Poppins font for headers */
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+  color: #fff;  /* White text for headers */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+/* Options */
+#options-container button {
+  padding: 12px;
+  background-color: #28a745;  /* Green accent for options */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  margin: 12px 0;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s, transform 0.2s ease;
+}
+
+#options-container button:hover {
+  background-color: #218838;  /* Darker green for hover */
+  transform: scale(1.05);
+}
+
+#options-container button:active {
+  background-color: #1e7e34;
+  transform: scale(0.98);
+}
+
+/* Final Score */
+#final-score {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #28a745;  /* Green for final score */
+  margin-top: 25px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
